@@ -1,0 +1,47 @@
+.signup-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.submitbtn {
+    border: none;
+    color: white;
+    background: rgb(11, 177, 11);
+    padding: 10px 20px;
+}
+
+form h4 {
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+form input {
+    width: 400px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    border: solid 1px #555;
+    position: relative;
+    padding: 10px 20px;
+}
+
+.label1 {
+    transform: translateY(-250%);
+    font-size: .8rem;
+    padding-left: 20px;
+    user-select: none;
+}
+
+.fname:focus ~ .label1 {
+    transform: translateY(-400%);
+}
